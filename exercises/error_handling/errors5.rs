@@ -22,8 +22,6 @@
 // Execute `rustlings hint errors5` or use the `hint` watch subcommand for a
 // hint.
 
-// I AM NOT DONE
-
 use std::error;
 use std::fmt;
 use std::num::ParseIntError;
@@ -62,7 +60,7 @@ impl fmt::Display for CreationError {
     fn fmt(&self, f: &mut fmt::Formatter) -> fmt::Result {
         let description = match *self {
             CreationError::Negative => "number is negative",
-            CreationError::Zero => "number is zero",
+            CreationError::Zro => "number is zero",
         };
         f.write_str(description)
     }
