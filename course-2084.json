@@ -2,8 +2,8 @@
   "schema": 1,
   "courseId": 2084,
   "repository": "LearningOS/2026a-rustling-HANG-117",
-  "commit": "a2964d6b100fafff7de410120554fb6cc1cda7a7",
-  "score": 78,
+  "commit": "dcb0c8eec1094ef33a2ef4acf2ee4147c50b8f7e",
+  "score": 81,
   "totalScore": 110,
   "exercises": [
     {
@@ -555,23 +555,23 @@
     {
       "name": "arc1",
       "max": 1,
-      "score": 0,
-      "status": "fail",
-      "exitCode": 1
+      "score": 1,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "cow1",
       "max": 1,
-      "score": 0,
-      "status": "fail",
-      "exitCode": 1
+      "score": 1,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "threads1",
       "max": 1,
-      "score": 0,
-      "status": "fail",
-      "exitCode": 1
+      "score": 1,
+      "status": "pass",
+      "exitCode": 0
     },
     {
       "name": "threads2",
@@ -778,9 +778,9 @@
     }
   ],
   "student": "HANG-117",
-  "runId": "40522190667",
+  "runId": "41177827395",
   "runAttempt": "1",
   "upload": {
-    "status": "accepted"
+    "status": "pending"
   }
 }
